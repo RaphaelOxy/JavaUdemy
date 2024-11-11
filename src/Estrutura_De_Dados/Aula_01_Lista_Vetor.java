@@ -14,7 +14,7 @@ public class Aula_01_Lista_Vetor {
         vetorzao[4] = 22;
         vetorzao[5] = 51;
         vetorzao[6] = 33;
-        
+
 
 //        System.out.println(vetorzao[3]);
         System.out.println("Imprimindo...");
