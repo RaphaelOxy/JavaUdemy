@@ -15,9 +15,22 @@ public class Televisao {
         System.out.println("Quantity in stock: ");
         televisao.quantity = sc.nextInt();
 
-        System.out.println("Enter the number of products to be added in stock: ");
+        System.out.println("Product data: " + televisao);
+        System.out.printf("");
+        System.out.printf("Enter the number of products to be added in stock: ");
+        int quantity = sc.nextInt();
+        televisao.addProducts(quantity);
 
+        System.out.println();
+        System.out.println("Updated data: " + televisao);
 
+        System.out.println("");
+        System.out.print("Enter the number of products to be removed in stock: ");
+        quantity = sc.nextInt();
+        televisao.removeProducts(quantity);
+
+        System.out.printf("");
+        System.out.printf("Updated data: " + televisao);
 
     }
 }
