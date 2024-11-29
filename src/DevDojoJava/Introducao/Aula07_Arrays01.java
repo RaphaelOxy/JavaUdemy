@@ -1,6 +1,4 @@
-package DevDojoJava;
-
-import java.sql.Array;
+package DevDojoJava.Introducao;
 
 public class Aula07_Arrays01 {
     public static void main(String[] args) {

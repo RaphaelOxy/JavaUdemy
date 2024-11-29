@@ -1,4 +1,4 @@
-package DevDojoJava;
+package DevDojoJava.Introducao;
 
 public class Aula08_ArraysMultidimensionais01 {
     public static void main(String[] args) {
@@ -17,8 +17,15 @@ public class Aula08_ArraysMultidimensionais01 {
 
 
         for (int i = 0; i < dias.length; i++) {
-            for (int j = 0; j < dias[0].length; j++) {
+            for (int j = 0; j < dias[i].length; j++) {
                 System.out.println(dias[i][j]);
+            }
+        }
+        System.out.println("__________________");
+
+        for(int [] arrBase : dias){
+            for(int num : arrBase){
+                System.out.println(num);
             }
         }
     }
