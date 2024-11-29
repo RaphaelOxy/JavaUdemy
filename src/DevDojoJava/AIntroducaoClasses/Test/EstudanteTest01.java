@@ -1,8 +1,8 @@
-package DevDojoJava.IntroducaoClasses.Test;
+package DevDojoJava.AIntroducaoClasses.Test;
 
-import DevDojoJava.IntroducaoClasses.Domain.Estudante;
+import DevDojoJava.AIntroducaoClasses.Domain.Estudante;
 
-public class EstudanteTest {
+public class EstudanteTest01 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
 

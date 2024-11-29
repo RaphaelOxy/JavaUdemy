@@ -1,7 +1,8 @@
-package DevDojoJava.IntroducaoClasses.Domain;
+package DevDojoJava.AIntroducaoClasses.Domain;
 
 public class Estudante {
     public String name;
     public int age;
     public char sex;
+
 }
