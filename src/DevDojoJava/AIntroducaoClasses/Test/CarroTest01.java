@@ -15,6 +15,8 @@ public class CarroTest01 {
         carro2.model = "911 Carrera GTS";
         carro2.age = 2025;
 
+        carro2 = carro1;
+
         System.out.println(carro1.name);
         System.out.println(carro1.model);
         System.out.println(carro1.age);
