@@ -7,7 +7,7 @@ public class EstudanteTest02 {
     public static void main(String[] args) {
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
-        ImpressoraEstudante impressoraEstudante = new ImpressoraEstudante();
+        //ImpressoraEstudante impressoraEstudante = new ImpressoraEstudante();
 
         estudante01.name = "Jack";
         estudante01.age = 23;
