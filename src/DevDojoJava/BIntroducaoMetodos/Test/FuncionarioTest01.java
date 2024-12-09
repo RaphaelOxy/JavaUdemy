@@ -14,15 +14,12 @@ public class FuncionarioTest01 {
 
         funcionario01.name = "Jack";
         funcionario01.age = 23;
-        funcionario01.salary1 = 2500.32;
-        funcionario01.salary2 = 2568.29;
-        funcionario01.salary3 = 4312.11;
+        funcionario01.salary = new double[] {2500.32, 2568.29, 4312.11};
 
         funcionario02.name = "Ana";
         funcionario02.age = 29;
-        funcionario02.salary1 = 4322.32;
-        funcionario02.salary2 = 4723.29;
-        funcionario02.salary3 = 5011.23;
+        funcionario02.salary = new double[] {4322.32, 4723.29, 5011.23};
+
 
         funcionario01.imprime();
         funcionario02.imprime();
